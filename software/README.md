@@ -1,4 +1,5 @@
 # Software
 
-Een cronjob zal elke minuut het `wneus.py` scriptje lopen en zo een meting doen
-en de data loggen als csv in `/home/pi/wneus`.
+Een cronjob zal elke minuut het `measure.py` scriptje lopen en zo een meting
+doen, de data loggen als csv in `/home/pi/wneus` en opsturen naar thingspeak
+(indien wifi aanwezig).
